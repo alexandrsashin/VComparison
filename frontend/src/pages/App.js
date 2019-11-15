@@ -35,7 +35,7 @@ class App extends PureComponent {
   render() {
     const { layerValue } = this.state;
     return (
-      <div>
+      <div className="container">
         <div>
           <canvas ref={this.canvas} width="600" height="600"></canvas>
         </div>
